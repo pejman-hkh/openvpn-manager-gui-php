@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Sep 26, 2018 at 12:19 PM
+-- Generation Time: Sep 26, 2018 at 12:23 PM
 -- Server version: 5.7.23-0ubuntu0.18.04.1
 -- PHP Version: 7.2.7-0ubuntu0.18.04.2
 
@@ -67,10 +67,8 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `status`, `main`, `online`, `ip`, `name`, `username`, `mobile`, `email`, `password`, `date`, `expire`) VALUES
-(1, '1', '0', '0', '', '', 'admin1', '', '', 'e10adc3949ba59abbe56e057f20f883e', 0, 1526428800),
-(2, '1', '0', '0', '', '', 'test3', '', '', 'e10adc3949ba59abbe56e057f20f883e', 0, 1526428800),
-(4, '1', '0', '0', '', 'ttt2', 'phpmyadmin', '9130003499', 'test@test.test', 'e10adc3949ba59abbe56e057f20f883e', 0, 1527724800),
-(5, '', '1', '0', '', 'admin', 'admin', 'admin', 'admin', 'e10adc3949ba59abbe56e057f20f883e', 1527145512, 0);
+(1, '1', '1', '0', '', '', 'admin', '', '', 'e10adc3949ba59abbe56e057f20f883e', 0, 1526428800),
+(2, '1', '0', '0', '', '', 'test3', '', '', 'e10adc3949ba59abbe56e057f20f883e', 0, 1526428800);
 
 --
 -- Indexes for dumped tables
